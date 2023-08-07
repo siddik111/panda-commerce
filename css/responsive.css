@@ -1,0 +1,13 @@
+
+@media (min-width: 768px) and (max-width: 1199.98px) { 
+    .carousel-item h1 {
+        font-size: 1.6rem;
+    }
+    .card {
+        width: auto !important;
+    }
+    #bag .card {
+        height: auto;
+    }
+    
+ }
