@@ -3,7 +3,96 @@
     padding: 0;
     box-sizing: border-box;
 }
+span{
+    display: block;
+}
+.shop-now-btn{
+    font-size: 16px;
+    padding: 12PX 25PX;
+    color: #fff;
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    border: none;
+    border-radius: 10px;
+}
+.card{
+    padding: 10px;
+    width: 400px !important;
+    box-shadow: 5px 5px 10px lightgray !important;
+}
+.price{
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 600;
+}
+/* common css end */
+/* Banner part start */
+#banner{
+    margin-top: 50px;
+}
 .carousel-item{
+    border-radius: 10px;
     padding: 30px 40px;
     background-color: #FCEAE8;
+}
+.carousel-item h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.carousel-item p{
+    font-size: 16px;
+    font-weight: 500;
+}
+.carousel-item span{
+    display: block;
+    margin-bottom: 15px;
+    font-size: 55px;
+    color: #FF136F;
+}
+/* Banner part End */
+
+/* categories part Start*/
+#categories {
+    padding: 80px 0;
+}
+#categories .item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    background-color: orange;
+    padding: 20px;
+    border-radius: 10px;
+}
+/* categories part End */
+
+/* Shoes part Start */
+#shoes h3{
+    font-size: 28px;
+    
+}
+#shoes .card-text{
+    font-size: 16px;
+}
+/* Shoes part End */
+
+/* Bag part start */
+#bag{
+    padding: 80px;
+}
+#bag .card{
+    height: 700px;
+}
+/*Bag part End */
+/*Subscribe part Start */
+#subscribe{
+    padding: 80px;
+    background-color: #FCEAE8;
+}
+#subscribe .item{
+    width: 300px;
+}
+/*Subscribe part End */
+footer{
+    text-align: center;
 }
